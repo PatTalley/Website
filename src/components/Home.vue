@@ -14,10 +14,10 @@
       </div>
       <div class="button blue-btn">
         <a
-          href="https://bitbucket.org/PatTalley/"
+          href="https://github.com/PatTalley?tab=repositories"
           target="_blank"
           class="bbucket"
-          >Bit Bucket</a
+          >Git Hub</a
         >
       </div>
       &nbsp;&nbsp;
