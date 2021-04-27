@@ -16,7 +16,7 @@
         <a
           href="https://github.com/PatTalley?tab=repositories"
           target="_blank"
-          class="bbucket"
+          class="github"
           >Git Hub</a
         >
       </div>
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "Banner",
   props: {
     msg: String,
   },
@@ -159,7 +159,7 @@ a:visited {
   text-shadow: 0px 0px 45px rgba(255, 159, 16, 0.53);
 }
 
-.bbucket {
+.github {
   text-shadow: 0px 0px 45px rgba(0, 111, 255, 0.53);
 }
 

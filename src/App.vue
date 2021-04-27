@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Your Vue.js App" />
+    <Banner msg="Welcome to Your Vue.js App" />
 
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from "./components/Home.vue";
+import Banner from "./components/Banner.vue";
 
 export default {
   name: "App",
+
   components: {
-    Home: Home,
+    Banner: Banner,
   },
 };
 </script>

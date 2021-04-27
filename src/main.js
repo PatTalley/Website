@@ -3,12 +3,22 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import Routes from './routes'
 
+
 Vue.use(VueRouter);
 
 
+
+// router.beforeEach((to, from, next) => {
+//   document.title = to.meta.title
+//   next()
+// });
+
+
 const router = new VueRouter({
-  routes: Routes
+  routes : Routes
 });
+
+
 
 Vue.config.productionTip = false
 
