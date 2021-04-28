@@ -1,5 +1,7 @@
 <template>
   <div class="about-me">
+    <br>
+    <br>
     <div class="container">
       <img class="picture" src="../assets/redbrick.png" />
       <p>

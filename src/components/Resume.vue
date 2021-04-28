@@ -1,5 +1,7 @@
 <template>
   <div class="resume">
+    <br>
+    <br>
     <img
       class="resume-picture"
       src="../assets/Patrick Talley Resume 2021-1.png"
@@ -18,5 +20,6 @@ export default {};
 <style>
 .resume-picture {
   height: 80rem;
+  
 }
 </style>
