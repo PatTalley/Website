@@ -21,18 +21,19 @@ export default {
 <style>
 .welcome {
   display: flex;
-  height: 45em;
+  height: 35em;
   width: auto;
   align-content: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10em;
 }
 
 @media (max-width: 800px) {
   .welcome {
-    height: 15em;
-    margin-top: 25em;
+    height: 20em;
+    margin-top: 15em;
   }
 }
 

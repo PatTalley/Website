@@ -10,7 +10,7 @@
       </div>
       &nbsp;&nbsp;
       <div class="button-center">
-        <router-link to="/">Patrick Talley</router-link>
+        <router-link class="talley" to="/">Patrick Talley</router-link>
       </div>
       <div class="button blue-btn">
         <a
@@ -52,21 +52,73 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap");
 
-@media (max-width: 800px) {
-  .button-center {
-    height: 10em;
-    width: 10em;
+@media (min-width: 1900px) {
+  .talley {
+    font-size: 80px;
   }
-  .button-container {
-    flex-direction: column;
-    height: 10em;
+}
+@media (max-width: 1899px) {
+  .button-container{
+  
+    /* height: 10em;
     width: 10em;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+  }
+  .talley {
+    font-size: 70px;
+  }
+  .button{
+   font-size: 20px;
   }
   .all-buttons {
-    flex-direction: row;
+    /* height: auto;
+    width: auto; */
   }
+}
+
+@media (max-width: 1578px) {
+  .button{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1488px) {
+  .talley {
+    font-size: 65px;
+  }
+}
+@media (max-width: 1416px) {
+  .talley {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 800px) {
+  .button {
+    flex-direction: column;
+    font-size: 16px;
+  }
+  .talley {
+    font-size: 50px;
+   
+    
+  }
+  .button-center {
+    font-size: 0px;
+    
+  
+  }
+  .button-container {
+   flex-direction: column;
+    /* height: 10em;
+    width: 10em; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  /* .all-buttons {
+    flex-direction: row;
+  } */
 }
 
 body {
@@ -74,17 +126,11 @@ body {
   background-color: #f2f7fd;
 }
 
-
-
 a {
   text-decoration: none;
 }
 a:visited {
   color: rgb(78, 77, 77);
-}
-
-.button-center {
-  font-family: prata;
 }
 
 .all-buttons {
@@ -113,17 +159,17 @@ a:visited {
 }
 
 .button-center {
-  font-size: 80px;
+  font-family: prata;
+  /* font-size: 80px; */
   height: 150px;
-  text-shadow: 0px 12px 15px rgba(68, 69, 70, 0.37); 
+  text-shadow: 0px 12px 15px rgba(68, 69, 70, 0.37);  
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.555);
-}
+} 
 
 .button-container{
-  /* background-color: rgba(197, 217, 230, 0.555); */
-  background-color: rgba(1#dce5f0);
-  box-shadow: inset 0px 0px 10px 9px rgba(153, 171, 192, 0.192)
+  background-color: rgba(230, 238, 243, 0.432);
+  box-shadow: inset 0px 0px 12px 9px rgba(153, 171, 192, 0.336)
 }
 
 .red-btn {
@@ -191,7 +237,7 @@ a:visited {
 }
 
 .resume {
-  text-shadow: 0px 0px 45px rgba(255, 16, 39, 0.5);
+  text-shadow: 0px 0px 45px rgba(255, 16, 39, 0.53);
 }
 
 .music {
