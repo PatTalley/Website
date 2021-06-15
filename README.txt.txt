@@ -1,0 +1,2 @@
+This is a personal website I created myself within vue.js. I wanted to create a website to be able to market myself to potential employers as well as to show what I've learned from Tech Elevator. On this website you will be able to
+find my resume, music I have created, my GitHub and some more information about myself. 

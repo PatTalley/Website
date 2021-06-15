@@ -1,7 +1,7 @@
 <template>
   <div class="about-me">
-    <br>
-    <br>
+    <br />
+    <br />
     <div class="container">
       <img class="picture" src="../assets/redbrick.png" />
       <p>
@@ -27,6 +27,11 @@ export default {};
 </script>
 
 <style>
+@media (max-width: 1516px) {
+  .container {
+    
+  }
+}
 .container {
   height: 29rem;
   border: 2px solid #646669;
